@@ -61,8 +61,12 @@ An example:
         print('verbose turned on')
 
 
-Further contents of the tutorial
---------------------------------
+Advanced contents of the tutorial
+---------------------------------
 - Mutually exclusive arguments
-- How does AstroPy add tools to the command line?
-- Installing command-line tools using setup.py
+- [How does AstroPy add its tools to the command line](https://github.com/astropy/astropy/blob/master/setup.py#L55).
+- Demo: add your tools as an executable to the command line using `setup.py`.
+
+Futher reading
+--------------
+* [A comparison of different command-line parsing libraries](https://realpython.com/blog/python/comparing-python-command-line-parsing-libraries-argparse-docopt-click/)
