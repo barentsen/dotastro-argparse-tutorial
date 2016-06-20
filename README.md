@@ -11,6 +11,17 @@ Installation
 `argparse` is part of Python's standard library, meaning you don't need to install anything apart from a basic Python environment!
 
 
+Concept
+-------
+The functionality we are exploring is similar to that offered by many
+standard command line tools, for example:
+
+    $ ls
+    $ ls /tmp
+    $ ls -l
+    $ ls --help
+
+
 Basics
 ------
 Command-line arguments are passed to Python programs via `sys.argv`:
@@ -21,7 +32,7 @@ Command-line arguments are passed to Python programs via `sys.argv`:
 The `argparse` module provides a mechanism to define the arguments a program requires and takes care of parsing those out of sys.argv.  Let's start with a simple example:
 
     import argparse
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='A tool that does nothing.')
     parser.parse_args()
 
 Running the above example, you will note that `argparse` automatically generates help and usage messages and issues errors when users give the program invalid arguments. 
@@ -66,6 +77,7 @@ Advanced contents of the tutorial
 - Mutually exclusive arguments
 - [How does AstroPy add its tools to the command line](https://github.com/astropy/astropy/blob/master/setup.py#L55).
 - Demo: add your tools as an executable to the command line using `setup.py`.
+- Demo: using your executables as part of shell scripts.
 
 Futher reading
 --------------
