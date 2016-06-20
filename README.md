@@ -74,7 +74,7 @@ An example:
 
 Advanced contents of the tutorial
 ---------------------------------
-- Mutually exclusive arguments
+- Adding [mutually exclusive arguments](example-scripts/fitsextract3.py#L19)
 - [How AstroPy adds command-line tools to your path](https://github.com/astropy/astropy/blob/master/setup.py#L55).
 - Demo: adding the [`fitsextract` demo tool](example-package) to the path using `setup.py`.
 - Demo: using argparse tools as part of shell scripts.
