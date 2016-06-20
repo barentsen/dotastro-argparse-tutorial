@@ -78,6 +78,7 @@ Advanced contents of the tutorial
 - [How AstroPy adds command-line tools to your path](https://github.com/astropy/astropy/blob/master/setup.py#L55).
 - Demo: adding the [`fitsextract` demo tool](example-package) to the path using `setup.py`.
 - Demo: using argparse tools as part of shell scripts.
+- Demo: using [click](http://click.pocoo.org) instead of argparse.
 
 Futher reading
 --------------
