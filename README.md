@@ -75,9 +75,9 @@ An example:
 Advanced contents of the tutorial
 ---------------------------------
 - Mutually exclusive arguments
-- [How does AstroPy add its tools to the command line](https://github.com/astropy/astropy/blob/master/setup.py#L55).
-- Demo: add your tools as an executable to the command line using `setup.py`.
-- Demo: using your executables as part of shell scripts.
+- [How AstroPy adds command-line tools to your path](https://github.com/astropy/astropy/blob/master/setup.py#L55).
+- Demo: adding the [`fitsextract` demo tool](example-package) to the path using `setup.py`.
+- Demo: using argparse tools as part of shell scripts.
 
 Futher reading
 --------------
