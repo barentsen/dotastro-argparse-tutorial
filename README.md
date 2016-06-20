@@ -1,4 +1,4 @@
-# DotAstronomy 2016 - Day 0: Python Argparse Tutorial
+# .Astronomy8 Day 0: Python Argparse Tutorial
 
 Python's `argparse` module makes it easy to write user-friendly command-line interfaces. It is the recommended command-line parsing module in the Python standard library.
 
